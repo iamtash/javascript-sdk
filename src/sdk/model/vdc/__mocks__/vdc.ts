@@ -29,6 +29,9 @@ export const MockVdcJson: VdcJson = {
   updated_date: 1499693404432,
   has_iaas_backups: false,
   has_integrated_backups: false
+  updated_date: 1499693404432,
+  has_advanced_backups: false,
+  company_id: '12345'
 };
 
 export const MockSecondVdcJson: VdcJson = {
@@ -57,6 +60,9 @@ export const MockSecondVdcJson: VdcJson = {
   updated_date: 1499693404654,
   has_iaas_backups: true,
   has_integrated_backups: true
+  updated_date: 1499693404654,
+  has_advanced_backups: false,
+  company_id: '12345'
 };
 
 export const MockVdcResponse: Promise<AxiosResponse> = new Promise<AxiosResponse>(function(resolve) {
